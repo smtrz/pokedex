@@ -1,0 +1,31 @@
+package com.tahir.pokedex.models.details
+
+data class PokemonDetails(
+    val base_happiness: Int? = null,
+    val capture_rate: Int? = null,
+    val color: Color? = null,
+    val egg_groups: List<EggGroup>? = null,
+    val evolution_chain: EvolutionChain? = null,
+    val evolves_from_species: EvolvesFromSpecies? = null,
+    val flavor_text_entries: List<FlavorTextEntry>? = null,
+    val form_descriptions: List<Any>? = null,
+    val forms_switchable: Boolean? = null,
+    val gender_rate: Int? = null,
+    val genera: List<Genera>? = null,
+    val generation: Generation? = null,
+    val growth_rate: GrowthRate? = null,
+    val habitat: Habitat? = null,
+    val has_gender_differences: Boolean? = null,
+    val hatch_counter: Int? = null,
+    val id: Int? = null,
+    val is_baby: Boolean? = null,
+    val is_legendary: Boolean? = null,
+    val is_mythical: Boolean? = null,
+    val name: String? = null,
+    val names: List<Name>? = null,
+    val order: Int? = null,
+    val pal_park_encounters: List<PalParkEncounter>? = null,
+    val pokedex_numbers: List<PokedexNumber>? = null,
+    val shape: Shape? = null,
+    val varieties: List<Variety>? = null
+)
